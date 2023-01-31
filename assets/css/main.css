@@ -3478,9 +3478,9 @@ header{
 						width: 33rem;
 					}
 
-					#wrapper section > .content {
+					/* #wrapper section > .content {
 						padding: 0 4rem;
-					}
+					} */
 
 					#wrapper section > footer {
 						padding: 0 8rem;
@@ -3884,10 +3884,13 @@ header{
 
 	}
 	#headshot{
-		width: 65%;
-		height: 65%;
-		margin: 200px;
-		border-radius: 3px;
+		width: 100%;
+		height: 100%;
+margin: 0 auto;
+padding: 0px;
+		height:100%;
+border-radius: 10px;
+	
 	}
 	a, .items {
 		color: white;

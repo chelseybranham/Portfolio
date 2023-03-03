@@ -3883,15 +3883,7 @@ header{
 		}
 
 	}
-	#headshot{
-		width: 100%;
-		height: 100%;
-margin: 0 auto;
-padding: 0px;
-		height:100%;
-border-radius: 10px;
-	
-	}
+
 	a, .items {
 		color: white;
 	}
@@ -3904,4 +3896,25 @@ border-radius: 10px;
 		a, .items, footer h3{
 			color: #000000;
 		}
+	}
+
+
+	.introContainer {
+		display: flex;
+		align-items: stretch;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.introChild {
+		justify-content: center;
+		align-items: stretch;
+		width: 60%;
+		height: 55%;	
+		margin-top: 100px;
+		margin-right: 20px;
+	}
+	
+	#headshot {
+		border-radius: 10px;
 	}

@@ -3918,3 +3918,11 @@ header{
 	#headshot {
 		border-radius: 10px;
 	}
+	.landscape {
+		display: flex;
+		align-items: stretch;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	
